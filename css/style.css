@@ -614,8 +614,63 @@ section {
     width: 70%;
 }
 
+.product {
+    text-align: center;
+}
+.product-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-column {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1 1 40rem; */
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-column .product-box {
+    width: 90%;
+    margin-top: 2.5rem;
+}
+
+.product-column .product-box h3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 3.2rem;
+}
+
+.product-column .product-box .product-content {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: .2rem solid var(--main-color);
+}
+
+.product-column .product-box .product-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.product-box .btn-box {
+    margin-top: 1.2rem;
+    width: 100%;
+}
+.product-box .btn-box a {
+    margin: 0 .5rem;
+}
+.product-box .btn-box a i {
+    margin: 0 .5rem;
+}
 .contact {
-    min-height: auto;
+    min-height: 100vh;
     padding-bottom: 7rem;
     text-align: center;
     padding-bottom: 200px;
@@ -765,6 +820,7 @@ section {
     transition-delay: calc(.3s / var(--i));
     animation: none;
 }
+
 section:nth-child(odd) .animate.scroll {
     background: var(--second-bg);
 }
@@ -777,7 +833,8 @@ section:nth-child(odd) .animate.scroll {
 .education.show-animate .animate.scroll,
 .education.show-animate .education-box .animate.scroll,
 .skills.show-animate .animate.scroll,
-.contact.show-animate .animate.scroll {
+.contact.show-animate .animate.scroll,
+.product.show-animate .animate.scroll {
     transition-delay: calc(.3s * var(--i));
     width: 0;
 }
@@ -800,7 +857,9 @@ section:nth-child(odd) .animate.scroll {
     .home {
         padding: 0 4%;
     }
-
+    .product .product-box h3 {
+        font-size: 2.8rem;
+    }
     .footer {
         padding: 2rem 4%;
     }
@@ -863,6 +922,9 @@ section:nth-child(odd) .animate.scroll {
         transform: translateX(0);
         transition-delay: .25s;
     }
+    .product-column {
+        width: 100%;
+    }
 }
 
 @media (max-width: 520px) {
@@ -882,6 +944,15 @@ section:nth-child(odd) .animate.scroll {
         width: 38px;
         height: 38px;
     }
+    .product .product-box h3 {
+        font-size: 2.8rem;
+    }
+    .product-column {
+        width: 100%;
+    }
+    .product-column .product-box .product-content {
+        height: 200px;
+    }
 }
 
 @media (max-width: 462px) {
@@ -892,6 +963,7 @@ section:nth-child(odd) .animate.scroll {
     .education {
         padding: 10rem 4% 5rem 5%;
     }
+
     .contact form .input-box .input-field {
         width: 100%;
     }
@@ -903,6 +975,12 @@ section:nth-child(odd) .animate.scroll {
     .footer p {
         margin-top: 2rem;
         text-align: center;
+    }
+    .product-column {
+        width: 100%;
+    }
+    .product-column .product-box .product-content {
+        height: 200px;
     }
 }
 
@@ -920,6 +998,12 @@ section:nth-child(odd) .animate.scroll {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+    .product-column {
+        width: 100%;
+    }
+    .product-column .product-box .product-content {
+        height: 200px;
     }
 }
 
