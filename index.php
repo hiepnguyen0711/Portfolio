@@ -315,14 +315,14 @@
             <div class="product-column">
                 <!-- react Native -->
                 <div class="product-box">
-                    <h3>Web Lucky Box Project<span class="animate scroll" style="--i:8;"></span></h3>
+                    <h3>Website Project<span class="animate scroll" style="--i:8;"></span></h3>
                     <div class="product-content">
-                        <img src="assets/images/hinhquangcao.png" />
+                        <img src="https://marketplace.canva.com/EAE-xnqWvJk/1/0/1600w/canva-retro-smoke-and-round-light-desktop-wallpapers-JLofAI27pCg.jpg" />
                         <span class="animate scroll" style="--i:9;"></span>
                     </div>
                     <div class="btn-box btns">
                         <a href="#" class="btn"><i class='bx bxl-github'></i> Github</a>
-                        <a href="https://vanhiepjp.com/vgta/luckybox/sukienhopqua.php" class="btn" target="_blank"><i class='bx bxl-chrome'></i> View Live</a>
+                        <a href="#" class="btn"><i class='bx bxl-chrome'></i> View Live</a>
                         <span class="animate scroll" style="--i:10;"></span>
                     </div>
                 </div>
@@ -349,36 +349,36 @@
         <form action="send_email.php" method="POST">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" placeholder="First Name" required>
                     <span class="focus"></span>
                 </div>
-        
+
                 <div class="input-field">
-                    <input type="text" name="lastName" placeholder="Last Name" required>
+                    <input type="text" placeholder="Last Name" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:2;"></span>
             </div>
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" name="mobileNumber" placeholder="Mobile Number" required>
+                    <input type="number" placeholder="Mobile Number" required>
                     <span class="focus"></span>
                 </div>
-        
+
                 <div class="input-field">
-                    <input type="text" name="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Email Address" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:3;"></span>
             </div>
-        
+
             <div class="textarea-field">
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <span class="focus"></span>
                 <span class="animate scroll" style="--i:4;"></span>
             </div>
             <div class="btn-box btns">
-                <button type="submit" name="submit" class="btn">Submit</button>
+                <button type="submit" class="btn">Submit</button>
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
         </form>
