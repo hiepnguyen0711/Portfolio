@@ -103,7 +103,7 @@
                 <span class="animate scroll" style="--i:4;"></span>
             </p>
             <div class="btn-box btns">
-                <a href="#" class="btn">Download CV</a>
+                <a href="https://drive.google.com/drive/u/1/my-drive" class="btn" target="_blank">Download CV</a>
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
         </div>
@@ -287,12 +287,12 @@
                 <div class="product-box">
                     <h3>React Native Project<span class="animate scroll" style="--i:2;"></span></h3>
                     <div class="product-content">
-                        <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=2000" />
+                        <img src="assets/images/project1.jpg" />
                         <span class="animate scroll" style="--i:3;"></span>
                     </div>
                     <div class="btn-box btns">
-                        <a href="#" class="btn"><i class='bx bxl-github'></i> Github</a>
-                        <a href="#" class="btn"><i class='bx bxl-play-store'></i> CH PLAY</a>
+                        <a href="https://github.com/hiepnguyen0711/BindBarber.git" class="btn" target="_blank"><i class='bx bxl-github'></i> Github</a>
+                        <a href="#" class="btn" target="_blank"><i class='bx bxl-play-store'></i> CH PLAY</a>
                         <span class="animate scroll" style="--i:4;"></span>
                     </div>
                 </div>
@@ -300,12 +300,12 @@
                 <div class="product-box">
                     <h3>Website Project<span class="animate scroll" style="--i:5;"></span></h3>
                     <div class="product-content">
-                        <img src="https://img.freepik.com/free-photo/blossom-floral-bouquet-decoration-colorful-beautiful-flowers-background-garden-flowers-plant-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1103.jpg?w=2000" />
+                        <img src="assets/images/project2.png" />
                         <span class="animate scroll" style="--i:6;"></span>
                     </div>
                     <div class="btn-box btns">
-                        <a href="#" class="btn"><i class='bx bxl-github'></i> Github</a>
-                        <a href="#" class="btn"><i class='bx bxl-chrome'></i> View Live</a>
+                        <a href="https://github.com/hiepnguyen0711/vgta-web.git" class="btn" target="_blank"><i class='bx bxl-github'></i> Github</a>
+                        <a href="https://vanhiepjp.com/vgta/" class="btn" target="_blank"><i class='bx bxl-chrome'></i> View Live</a>
                         <span class="animate scroll" style="--i:7;"></span>
                     </div>
                 </div>
@@ -315,14 +315,14 @@
             <div class="product-column">
                 <!-- react Native -->
                 <div class="product-box">
-                    <h3>Website Project<span class="animate scroll" style="--i:8;"></span></h3>
+                    <h3>Web Lucky Box Project<span class="animate scroll" style="--i:8;"></span></h3>
                     <div class="product-content">
-                        <img src="https://marketplace.canva.com/EAE-xnqWvJk/1/0/1600w/canva-retro-smoke-and-round-light-desktop-wallpapers-JLofAI27pCg.jpg" />
+                        <img src="assets/images/hinhquangcao.png" />
                         <span class="animate scroll" style="--i:9;"></span>
                     </div>
                     <div class="btn-box btns">
-                        <a href="#" class="btn"><i class='bx bxl-github'></i> Github</a>
-                        <a href="#" class="btn"><i class='bx bxl-chrome'></i> View Live</a>
+                        <a href="https://github.com/hiepnguyen0711/luckybox.git" class="btn" target="_blank"><i class='bx bxl-github'></i> Github</a>
+                        <a href="https://vanhiepjp.com/vgta/luckybox/sukienhopqua.php" class="btn" target="_blank"><i class='bx bxl-chrome'></i> View Live</a>
                         <span class="animate scroll" style="--i:10;"></span>
                     </div>
                 </div>
@@ -330,12 +330,12 @@
                 <div class="product-box">
                     <h3>Website Project<span class="animate scroll" style="--i:11;"></span></h3>
                     <div class="product-content">
-                        <img src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg" />
+                        <img src="assets/images/project4.png" />
                         <span class="animate scroll" style="--i:12;"></span>
                     </div>
                     <div class="btn-box btns">
-                        <a href="#" class="btn"><i class='bx bxl-github'></i> Github</a>
-                        <a href="#" class="btn"><i class='bx bxl-chrome'></i> View Live</a>
+                        <a href="https://github.com/hiepnguyen0711/LienQuanSkin.git" class="btn" target="_blank"><i class='bx bxl-github'></i> Github</a>
+                        <a href="https://vanhiepjp.com/lienquan/" class="btn" target="_blank"><i class='bx bxl-chrome'></i> View Live</a>
                         <span class="animate scroll" style="--i:13;"></span>
                     </div>
                 </div>
@@ -349,36 +349,36 @@
         <form action="send_email.php" method="POST">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="First Name" required>
+                    <input type="text" name="firstName" placeholder="First Name" required>
                     <span class="focus"></span>
                 </div>
-
+        
                 <div class="input-field">
-                    <input type="text" placeholder="Last Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:2;"></span>
             </div>
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="number" name="mobileNumber" placeholder="Mobile Number" required>
                     <span class="focus"></span>
                 </div>
-
+        
                 <div class="input-field">
-                    <input type="text" placeholder="Email Address" required>
+                    <input type="text" name="email" placeholder="Email Address" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:3;"></span>
             </div>
-
+        
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <span class="focus"></span>
                 <span class="animate scroll" style="--i:4;"></span>
             </div>
             <div class="btn-box btns">
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" name="submit" class="btn">Submit</button>
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
         </form>

@@ -125,7 +125,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/assets/images/hiepjp_bg.png') no-repeat;
+    background: url('/assets/images/hiepjp_bg_5.jpg') no-repeat;
     background-size: contain;
     background-position: bottom right;
 }
@@ -343,7 +343,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/assets/images/hiepjp_bg2.png') no-repeat;
+    background: url('/assets/images/hiepjp_bg_4.jpg') no-repeat;
     background-position: bottom;
     background-size: cover;
     overflow: hidden;
@@ -656,7 +656,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+    object-position: top;
 }
 
 .product-box .btn-box {
